@@ -1,0 +1,541 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    font-family: cairo, sans-serif
+}
+
+.header {
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.logo {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.logo-img {
+    width: 50%;
+    padding-top: 10%
+}
+
+.top-audio {
+    text-align: center;
+    padding-top: 25%
+}
+
+.text-top {
+    color: #fff !important;
+    position: relative;
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.social {
+    color: #f59d21;
+    position: relative;
+    font-size: 25px;
+    margin: 5px
+}
+
+.social:hover {
+    color: #fff;
+    position: relative;
+    font-size: 25px;
+    margin: 5px
+}
+
+.azkar {
+    text-align: center;
+    padding-top: 3rem
+}
+
+.sun {
+    width: 20%;
+    height: 30%;
+    padding-top: 1rem
+}
+
+.moon {
+    padding-top: 1rem;
+    width: 15%;
+    height: 30%
+}
+
+.audio-azkar {
+    display: block;
+    margin: auto;
+    padding-top: 1rem
+}
+
+.quran {
+    background-color: #fee46f;
+    padding: 2rem
+}
+
+.person-img {
+    width: 40%;
+    margin-right: 5rem
+}
+
+.qur-tit {
+    margin-top: 5rem
+}
+
+.live-tit-1 {
+    text-align: center;
+    margin-top: 3rem
+}
+
+.live-tit-2 {
+    text-align: center
+}
+
+.lib {
+    margin-top: 2rem;
+    text-align: center
+}
+
+.video-you {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem
+}
+
+.you-icon {
+    color: red !important
+}
+
+.card {
+    margin: 1rem
+}
+
+.card-title {
+    color: #000
+}
+
+.card-link {
+    text-decoration: none !important;
+    color: #000
+}
+
+.card-link:hover {
+    text-decoration: none !important;
+    color: #3a0000
+}
+
+.text-muted {
+    color: #fff !important
+}
+
+.text-muted:hover {
+    color: #eeff02 !important
+}
+
+.card-img-wrap {
+    overflow: hidden;
+    position: relative
+}
+
+.card-img-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(77, 3, 3, .3);
+    opacity: 0;
+    transition: opacity .25s
+}
+
+.card-img-wrap img {
+    transition: transform .25s;
+    width: 100%
+}
+
+.card-img-wrap:hover img {
+    transform: scale(1.2)
+}
+
+.card-img-wrap:hover:after {
+    opacity: 1
+}
+
+.masbaha {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center
+}
+
+.mas-title {
+    background-color: #112e44;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem
+}
+
+.mas-span {
+    font-size: 25px;
+    font-weight: 700 !important;
+    margin: 1rem
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    margin-top: 1rem;
+    padding: .5rem;
+    text-align: center
+}
+
+.foot-text {
+    font-size: 16px
+}
+
+.copy {
+    color: #ff4500;
+    text-decoration: none
+}
+
+.copy:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.hesn-click {
+    margin-top: .5rem
+}
+
+.hes-elmoslem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center
+}
+
+.hesn-list {
+    display: block;
+    border: 0 solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 75%;
+    height: 400px;
+    overflow-y: scroll;
+    align-items: center
+}
+
+#musicPlayer {
+    width: 75%;
+    margin-right: 10%
+}
+
+.hesn-list {
+    margin-right: 10%
+}
+
+.hades-top {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem
+}
+
+.hades-but {
+    color: #fff
+}
+
+.panel {
+    margin: 20px;
+    padding: 0;
+    height: 34px
+}
+
+.audio-panel {
+    border: none !important;
+    background-color: transparent
+}
+
+#playlist {
+    margin-top: 50px;
+    display: block;
+    border: 0 solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll
+}
+
+#audio {
+    width: 100%;
+    padding-bottom: 1rem
+}
+
+.active a {
+    text-decoration: none
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px
+}
+
+li {
+    margin: 0;
+    padding: 0
+}
+
+li,
+a {
+    transition: all .5s
+}
+
+.act-a {
+    background-color: #fee46f;
+    padding: 1rem;
+    color: #333
+}
+
+.act-a:hover {
+    background-color: #fff;
+    padding: 1rem;
+    color: #333
+}
+
+.list-group-item.active a {
+    text-decoration: none;
+    color: #333
+}
+
+.a-play {
+    display: block;
+    position: relative;
+    width: 100%
+}
+
+li a {
+    display: block;
+    text-decoration: none
+}
+
+li:hover {
+    background-color: #fff
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #333
+}
+
+.a-play {
+    color: #333;
+    text-decoration: none
+}
+
+.last {
+    display: none
+}
+
+.tit-na {
+    display: inline;
+    margin-right: 6rem
+}
+
+.sameh {
+    background-color: #fee46f
+}
+
+li.list-group-item.sameh.active {
+    background-color: #fff;
+    color: #333
+}
+
+.img-logo {
+    height: 70px;
+    width: 150px
+}
+
+.slid-logo {
+    height: 200px;
+    width: 400px
+}
+
+.demo-img {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px
+}
+
+.demo-box {
+    background-color: indigo;
+    color: #fff;
+    padding: 2rem;
+    border-radius: 10px
+}
+
+.country {
+    color: indigo
+}
+
+.how-box {
+    color: indigo;
+    padding-top: 1rem;
+    padding-bottom: 1rem
+}
+
+.box-top {
+    box-shadow: 5px 5px 8px 5px #888
+}
+
+header {
+    position: relative;
+    background-color: #000;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+header .container {
+    position: relative;
+    z-index: 2
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .5;
+    z-index: 1
+}
+
+@media(pointer:coarse) and (hover:none) {
+    header {
+        background: url(https://source.unsplash.com/XT5OInaElMw/1600x900) #000 no-repeat center center scroll
+    }
+    header video {
+        display: none
+    }
+}
+
+.boxs {
+    position: relative;
+    margin-bottom: 30px;
+    color: #4d585f;
+    background-color: #fff;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    transition: opacity .25s ease-out;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5
+}
+
+.project_widget .pw_img {
+    position: relative;
+    overflow: hidden
+}
+
+.project_widget .pw_img:before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg)
+}
+
+.project_widget .pw_img:hover::before {
+    -webkit-animation: shine .75s;
+    animation: shine .75s
+}
+
+@-webkit-keyframes shine {
+    100% {
+        left: 125%
+    }
+}
+
+@keyframes shine {
+    100% {
+        left: 125%
+    }
+}
+
+.project_widget .pw_img img {
+    border-radius: 3px 3px 0 0;
+    height: 280px;
+    width: 300px
+}
+
+.project_widget .pw_content .pw_header {
+    padding: 20px;
+    border-bottom: 1px solid #e6eaee
+}
+
+.project_widget .pw_content .pw_header h6 {
+    font-size: 16px;
+    margin: 0
+}
+
+.project_widget .pw_content .pw_header small {
+    font-size: 12px
+}
+
+.project_widget .pw_content .pw_meta {
+    padding: 20px
+}
+
+.project_widget .pw_content .pw_meta small,
+.project_widget .pw_content .pw_meta span {
+    display: block
+}
+
+.project_widget .pw_content .pw_meta span {
+    font-weight: 500
+}
+
+.ytp-cued-thumbnail-overlay-image {
+    width: 97% !important
+}
